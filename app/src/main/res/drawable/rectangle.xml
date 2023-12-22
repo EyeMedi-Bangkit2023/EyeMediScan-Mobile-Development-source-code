@@ -1,0 +1,17 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="312dp"
+    android:height="468dp"
+    android:viewportWidth="312"
+    android:viewportHeight="468"
+    >
+        <path
+            android:pathData="M6 6L6 306L306 306L306 6z"
+            android:fillColor="#D3D3D3" />
+
+        <!-- Inner white area -->
+        <path
+            android:pathData="M18 18L18 294L294 294L294 18z"
+            android:fillColor="#FFFFFF" />
+</vector>

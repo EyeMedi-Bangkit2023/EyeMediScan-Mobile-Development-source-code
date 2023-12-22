@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ResultActivity">
+
+    <ImageView
+        android:id="@+id/imageViewCorner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/mediscan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBelowImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediction Result :"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="24sp"
+        android:textColor="@color/blue"
+        app:layout_constraintTop_toBottomOf="@id/imageViewCorner"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/diagnose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Penyakit"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewBelowImage"
+        android:layout_marginTop="13dp"/>
+    <TextView
+        android:id="@+id/def"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Definition :"
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/diagnose"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/definition"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="deskripsi penyakit"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/def"
+        android:layout_marginTop="13dp"/>
+
+    <TextView
+        android:id="@+id/penyebabtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cause of Disease :"
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/definition"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/penyebab"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="penyebab penyakit"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/penyebabtext"
+        android:layout_marginTop="13dp"/>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Home"
+        android:textColor="@color/blue"
+        android:backgroundTint="@color/sky"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="50dp"/>
+
+    <!-- Button on the right -->
+    <Button
+        android:id="@+id/testiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Feedback"
+        android:textColor="@color/blue"
+        android:backgroundTint="@color/sky"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="50dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

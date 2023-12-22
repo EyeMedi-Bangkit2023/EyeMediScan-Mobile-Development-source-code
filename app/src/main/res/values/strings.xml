@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EyeMediScan</string>
+    <string name="post">Upload Your Feedback!</string>
+    <string name="back">Back</string>
+    <string name="tutorial">How To Use EyeMediScan</string>
+    <string name="upload">Upload Your Medical Scan</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
